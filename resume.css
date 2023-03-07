@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    min-height: 100vh;
+    
+}
+
+.container{
+    position: relative;
+    min-width: 1000px;
+   min-height:1000px;
+   margin: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1.12fr;
+   width: 100%;
+  
+}
+.container .left{
+    /* position: relative; */
+    background-color:peru;
+    /* padding: 40px; */
+}
+
+.profiletext{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+
+.profiletext .image{
+  
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+.profiletext h2{
+    text-align: center;
+    color: red;
+    
+
+}
+
+
+
+
+
+
+table,tr,td{
+
+    padding: 30px;
+}
+.container .right{
+    
+    background-color: red;
+}
+ 
+
+h3{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.name{
+    transform: translateX(25px);
+}
+
+.name1{
+    transform: translateX(25px);
+}
+
+.text {
+
+   transform: translateX(50px);
+}
+
+.name2{
+
+    transform: translateX(25px);
+ }
+
+ .name3{
+
+    transform: translateX(560px);
+ }
+ 
+
+.container .right{
+    position: relative;
+    background-color:plum;
+    padding: 40px;
+}
+
+button{
+
+    align-items: center;
+
+}
+button{
+    padding: 5px;
+    border-radius: 60px;
+    background-color: aqua;
+    color: black;
+    margin-top: 10px
+}
+
+button:hover{
+    background-color: crimson;
+}
